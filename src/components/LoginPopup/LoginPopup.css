@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Google Fonts */
+body.no-scroll {
+    overflow: hidden;
+}
+.login-popup {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+.login-popup-container {
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+    animation: fadeIn 0.5s;
+    font-family: 'Rubik', sans-serif;
+}
+
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+
+.login-popup-title h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.login-popup-title img {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-inputs input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.login-popup-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #ff6347;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
+
+.login-popup-condition {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+    flex-direction: row;
+}
+
+.login-popup-condition input {
+    margin-top: 6px;
+    width: 35px;
+    height: 25px;
+}
+
+.login-popup p {
+    font-family: 'Rubik', sans-serif;
+}
+
+.login-popup p span {
+    color: #ff6347;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
