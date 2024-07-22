@@ -14,6 +14,7 @@ import rating4_icon from './rating-4.png'
 import rating3_icon from './rating-3.png'
 import rating2_icon from './rating-2.png'
 import rating1_icon from './rating-1.png'
+import home from './home.png'
 // Thumbnails
 import cake_menu from "./Cake.jpg";
 import desserts_menu from "./Dessert.jpg";
@@ -207,7 +208,8 @@ export const assets = {
   github,
   linkedin,
   x_twitter,
-  play
+  play,
+  home
 };
 
 export const foods = {
