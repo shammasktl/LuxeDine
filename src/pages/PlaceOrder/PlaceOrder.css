@@ -44,3 +44,10 @@
 .place-order .cart-total button {
     margin-top: 30px;
 }
+
+@media screen and (max-width:750px) {
+    .place-order {
+        display: flex;
+        flex-direction: column;
+    }
+}
