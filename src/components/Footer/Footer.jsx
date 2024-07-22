@@ -18,7 +18,7 @@ const Footer = () => {
             <img src={assets.facebook} alt="" />
             <img src={assets.x_twitter} alt="" />
             <img src={assets.linkedin} alt="" />
-            <img src={assets.github} alt="" />
+            <a href="https://github.com/archi-pelago/LuxeDine" target="_blank"><img src={assets.github} alt="" /></a>
           </div>
         </div>
         <div className="footer-content-center">
