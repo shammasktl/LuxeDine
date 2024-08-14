@@ -21,7 +21,6 @@ const Navbar = ({ setShowLogin }) => {
             <Link to='/'><img src={assets.logo} alt="" className="logo" /></Link>
             <div className="navbar-right">
                 <img src={assets.search_icon} alt="" className='icon bg'/>
-                <img src={assets.home} alt="" />
                 <div className="navbar-cart-icon">
                     <Link to='/cart'><img src={assets.cart_icon} alt="" className='icon bg'/></Link>
                     <div className={getTotalCartAmount()===0?'':'dot'}></div>
